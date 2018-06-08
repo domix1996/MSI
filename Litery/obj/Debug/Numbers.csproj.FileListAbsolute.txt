@@ -7,3 +7,12 @@ C:\Users\Dominik Narożyński\Desktop\Litery\Litery\obj\Debug\Numbers.csproj.Cor
 C:\Users\Dominik Narożyński\Desktop\Litery\Litery\obj\Debug\Numbers.csproj.CopyComplete
 C:\Users\Dominik Narożyński\Desktop\Litery\Litery\obj\Debug\Litery.exe
 C:\Users\Dominik Narożyński\Desktop\Litery\Litery\obj\Debug\Litery.pdb
+C:\Users\Dominik Narożyński\Desktop\Numbers\Litery\bin\Debug\Litery.exe.config
+C:\Users\Dominik Narożyński\Desktop\Numbers\Litery\bin\Debug\Litery.exe
+C:\Users\Dominik Narożyński\Desktop\Numbers\Litery\bin\Debug\Litery.pdb
+C:\Users\Dominik Narożyński\Desktop\Numbers\Litery\bin\Debug\FANNCSharp.dll
+C:\Users\Dominik Narożyński\Desktop\Numbers\Litery\obj\Debug\Numbers.csproj.CoreCompileInputs.cache
+C:\Users\Dominik Narożyński\Desktop\Numbers\Litery\obj\Debug\Numbers.csproj.CopyComplete
+C:\Users\Dominik Narożyński\Desktop\Numbers\Litery\obj\Debug\Litery.exe
+C:\Users\Dominik Narożyński\Desktop\Numbers\Litery\obj\Debug\Litery.pdb
+C:\Users\Dominik Narożyński\Desktop\Numbers\Litery\obj\Debug\Numbers.csprojResolveAssemblyReference.cache

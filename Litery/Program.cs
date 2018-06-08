@@ -17,9 +17,9 @@ namespace TrainNumber
 {
     class TrainNumbers
     {
-        private const string Path = @"C:\Users\Dominik Narożyński\Desktop\Litery\Litery\numbers_test.txt";
-        private const string Filename = @"C:\Users\Dominik Narożyński\Desktop\Litery\Litery\numbers_learn.data";
-        private const string SaveFile = @"C:\Users\Dominik Narożyński\Desktop\Litery\Litery\numbers_net.net";
+        private const string Path = @"C:\Users\Dominik Narożyński\Desktop\Numbers\Litery\numbers_test.txt";
+        private const string Filename = @"C:\Users\Dominik Narożyński\Desktop\Numbers\Litery\numbers_learn.data";
+        private const string SaveFile = @"C:\Users\Dominik Narożyński\Desktop\Numbers\Litery\numbers_net.net";
 
         private static int PrintAll(
             NeuralNet neural, 
@@ -41,15 +41,15 @@ namespace TrainNumber
 
             const float learning_rate = 0.7f;
             const uint num_layers = 6;
-            const uint num_input = 100;
+            const uint num_input = 225;
             const uint num_hidden1 = 80;
             const uint num_hidden2 = 60;
             const uint num_hidden3 = 40;
             const uint num_hidden4 = 10;
             const uint num_output = 6;
             const float desired_error = 0.0002f;
-            const uint max_iterations = 1000000;
-            const uint iterations_between_reports = 10000;
+            const uint max_iterations = 100000000;
+            const uint iterations_between_reports = 1000000;
 
             Console.WriteLine("\nCreating network.");
 
@@ -117,7 +117,7 @@ namespace TrainNumber
                 {
                     var inputsSymbol = reader.ReadLine().Split(' ');
                     var outputsSymbol = reader.ReadLine().Split(' ');
-                    var inputs = new float[100];
+                    var inputs = new float[225];
                     var outputs = new float[6];
 
                     for (int j = 0; j < inputsSymbol.Length; j++)
@@ -131,11 +131,11 @@ namespace TrainNumber
 
                     float[] calc_out = net.Run(inputs);
 
-                    for (int j = 0; j < 10; j++)
+                    for (int j = 0; j < 15; j++)
                     {
-                        for (int k = 0; k < 10; k++)
+                        for (int k = 0; k < 15; k++)
                         {
-                            Console.Write(inputs[10 * j + k] == 0 ? ' ' : '█');
+                            Console.Write(inputs[15 * j + k] == 0 ? ' ' : '█');
                         }
                         Console.WriteLine();
                     }
